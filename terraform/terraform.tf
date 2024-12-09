@@ -27,15 +27,14 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "rhenaactions"
+    bucket = "githubactions-infra-012"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 
   #required_version = "~> 1.5.1"
   required_version = "~> 1.7.0"
 
 }
-##
-##
+
 
