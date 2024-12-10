@@ -33,7 +33,7 @@ terraform {
   }
 
   #required_version = "~> 1.5.1"
-  required_version = "~> 1.7.0"
+  required_version = "~> 1.10.1"
 
 }
 
