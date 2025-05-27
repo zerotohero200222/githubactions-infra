@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "githubactions-infra-012"
+    bucket = "githubactions-infra-143"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
